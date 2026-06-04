@@ -1,0 +1,28 @@
+{
+  "name": "experiment-csp-redirect",
+  "version": "0.0.0-0",
+  "private": true,
+  "description": "",
+  "homepage": "https://github.com/compulim/experiment-csp-redirect#readme",
+  "bugs": {
+    "url": "https://github.com/compulim/experiment-csp-redirect/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/compulim/experiment-csp-redirect.git"
+  },
+  "license": "MIT",
+  "author": "",
+  "type": "module",
+  "main": "./src/index.ts",
+  "scripts": {
+    "start": "node --watch --watch-preserve-output ."
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.6",
+    "@types/node": "^25.9.1"
+  },
+  "dependencies": {
+    "express": "^5.2.1"
+  }
+}
